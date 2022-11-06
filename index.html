@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap" rel="stylesheet">
+  <title>FrontEnd Homework - NFT Review Page</title>
+
+
+<style>
+
+.card{
+  width: 350px;
+  background: #15263F;
+  box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.main-pic{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  border-radius: 35px;
+}
+
+.main-heading{
+  color: #ffffff;
+  font-size: 22px;
+  font-family:"outfit";
+  font-weight: 600;
+  padding-left: 24px;
+  padding-right: 24px;
+
+}
+
+.main-para{
+  font-family: 'Outfit';
+  font-weight: 300;
+  font-size: 18px;
+  color: #8BACD9;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.info{
+  display: flex;
+  justify-content: space-around;
+  height: 25px;
+  
+}
+.info > p {
+  margin-top: 0px;
+}
+.info > img{
+  margin-right: 10px;
+  height: 25px;
+}
+.info-1{
+  color: #00FFF8;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 300;
+}
+.info-2{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  
+  color: #8BACD9;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  box-sizing: border-box;
+
+}
+
+.credits{
+  border-top: 1px solid #2E405A;
+  box-sizing: border-box;
+  display: flex;  
+  align-items: center;
+  justify-content: flex-start;
+
+}
+
+.credits > img{
+  margin-right: 10px;
+  height: 44px;
+  width: 44px;
+  padding-left: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.creation {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+color: #8BACD9;
+}
+.name {
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+
+/* White */
+
+color: #FFFFFF;
+padding-left: 10px;
+}
+</style>
+
+</head>
+<body>
+  
+  <div class="card">
+    <img src="image-equilibrium.jpg" alt="NFT-Preview-Card" class="main-pic">
+    <h1 class="main-heading">Equilibrium #3429</h1>
+    <p class="main-para">Our Equilibrium collection promotes balance and calm.</p>
+    
+    <div class="container">
+      <div class="info info-1">
+        <img src="icon-ethereum.svg" alt="">
+        <p>0.041 ETH</p>
+      </div>
+      <div class="info info-2">
+        <img src="icon-clock.svg" alt="">
+        <p>3 days left</p>
+      </div>
+    </div>
+    
+    <div class="credits">
+      <img src="image-avatar.png" alt="">
+      <p class="creation">Creation of</p>
+      <p class="name">Jules Wyvern</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+.card{
+    width: 350px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+  
+  .main-pic{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 24px;
+    border-radius: 35px;
+  }
+  
+  .main-heading{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:"outfit";
+    font-weight: 600;
+    padding-left: 24px;
+    padding-right: 24px;
+  
+  }
+  
+  .main-para{
+    font-family: 'Outfit';
+    font-weight: 300;
+    font-size: 18px;
+    color: #8BACD9;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  
+  .info{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    
+  }
+  .info > p {
+    margin-top: 0px;
+  }
+  .info > img{
+    margin-right: 10px;
+    height: 25px;
+  }
+  .info-1{
+    color: #00FFF8;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+  }
+  .info-2{
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    
+    color: #8BACD9;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    box-sizing: border-box;
+  
+  }
+  
+  .credits{
+    border-top: 1px solid #2E405A;
+    box-sizing: border-box;
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+  
+  }
+  
+  .credits > img{
+    margin-right: 10px;
+    height: 44px;
+    width: 44px;
+    padding-left: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .creation {
+    font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #8BACD9;
+  }
+  .name {
+    font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  
+  /* White */
+  
+  color: #FFFFFF;
+  padding-left: 10px;
+  }
